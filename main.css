@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Supermercado One', cursive;
+    font-size: 20px;
+
+  }
+
+header {
+    width: 100%;
+    background-color: darkcyan;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: white;
+
+}
+
+body {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+section {
+    min-height: 250px;
+    padding: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+   
+}
+#mainpic{
+    display: inline-block;
+} 
+#hero {
+      display: inline-block;
+      min-height: 50px;
+  }
+.about-me{
+    background-color: #FAE1F2;
+    border-width: 10px;
+    border-color: black;
+    color: darkcyan;
+
+}
+.project-list {
+    background-color: #D4F9FA;
+    color: darkcyan;
+}
+/*#43797A;*/
+.contact-info {
+    background-color: darkcyan;
+    color: white;
+}
+
+nav {
+    font-size: 16px;
+}
