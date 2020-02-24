@@ -3,97 +3,146 @@
     font-family: 'ZCOOL QingKe HuangYou', cursive;
   }
 
-@media only screen and (max-width: 640px){
+
 #hero{
     text-align: center;
     margin: 0px;
     padding: 0px;
 }
-
 #mePic {
-    width: 100%;
     margin: 0px;
     padding: 0px;
-
+    height: 300px;
+    border-radius: 295px;
 }
+
 #mainpic {
-    width: 80%;
-    display: block;
+    display: inline-block;
+    width: 60%;
     margin: 0px;
     padding-top: 2.5%;
     padding-right: 0px;
     padding-left: 0px;
     padding-bottom: 0px;
+    text-align: center;
  
 }
 #header {
     text-align: center;
     padding: 0px;
+    background-color: darkcyan;
+    color: white;
 }
 #about-me {    
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 10%;
+    background-color: #FAE1F2;
+    border-width: 10px;
+    border-color: black;
+    color: darkcyan;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
+
 
 img#teddy {
     display: inline-block;
-    width: 85%;
+    width: 70%;
     padding: 0%;
     margin: 0px;
 }
 
 #teddy-desc{
+    text-align: left;
     display: block;
     width: 100%;
     margin: 0px;
-
-}
-}
-
-
-
-
-
-
-#mePic {
-    margin: 0px;
     padding: 0px;
-    height: 400px;
-    border-radius: 395px;
 }
+
+section {
+    min-height: 200px;
+    padding: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;    
+    font-size: 18px;
+}
+
+.project-list {
+    text-align: center;
+    background-color: #D4F9FA;
+    color: darkcyan;
+    padding: 5%;
+}
+
+.contact-info {
+    background-color: darkcyan;
+    color: white;
+}
+
+.projectLinks {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  min-height: 0px;
+}
+
+nav {
+    font-size: 16px;
+}
+
+footer {
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+h3, h4 {
+  text-align: center;
+}
+
+button {
+  height: 50px;
+  font-size: 18px;
+  background-color: #FAE1F2;
+}
+
+
+
+
+
+@media only screen and (min-width: 640px){
+
+
 
 header {
     width: 100%;
-    background-color: darkcyan;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    color: white;
     text-align: left;
     padding: 0px;
 
 }
 
 body {
-    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
 
 }
 
-section {
-    min-height: 250px;
-    padding: 10%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;    
-    font-size: 24px;
-
-   
+section {  
+    font-size: 26px; 
 }
+
 #mainpic{
+    width: 30%;
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 0;
 } 
 #hero {
       display: inline-block;
@@ -102,42 +151,9 @@ section {
       font-size: 40px;
       
   }
-.about-me{
-    background-color: #FAE1F2;
-    border-width: 10px;
-    border-color: black;
-    color: darkcyan;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 5%;
-    padding-top: 5%;
 
-}
-.project-list {
-    background-color: #D4F9FA;
-    color: darkcyan;
-    padding: 5%;
-}
 
-#teddy {
-    display: inline;
-    width: 350px;
-}
 
-.project-desc{
-    display: inline-block;
-    width: 50%;
-    padding: 2.5%;
-    margin: 0px;
-
-}
 /*#43797A;*/
-.contact-info {
-    background-color: darkcyan;
-    color: white;
-}
 
-
-nav {
-    font-size: 16px;
 }
