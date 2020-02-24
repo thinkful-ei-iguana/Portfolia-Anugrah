@@ -12,8 +12,8 @@
 #mePic {
     margin: 0px;
     padding: 0px;
-    height: 300px;
-    border-radius: 295px;
+    height: 225px;
+    border-radius: 220px;
 }
 
 #mainpic {
@@ -81,6 +81,11 @@ section {
 .contact-info {
     background-color: darkcyan;
     color: white;
+
+}
+
+.contact {
+  color: white;
 }
 
 .projectLinks {
