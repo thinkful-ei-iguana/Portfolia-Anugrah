@@ -29,9 +29,11 @@
 }
 #header {
     text-align: center;
-    padding: 0px;
+    padding: 5px;
     background-color: darkcyan;
     color: white;
+    border-radius: 5%;
+
 }
 #about-me {    
     width: 100%;
@@ -45,8 +47,25 @@
     padding-right: 10%;
     padding-bottom: 5%;
     padding-top: 5%;
+    border-radius: 5%;
 }
 
+section .collapse {
+  display: none;
+}
+
+section a {
+  color: darkcyan;
+}
+
+section a:hover {
+
+   color: black;
+}
+
+section:target .collapse {
+  display: block;
+}
 
 img#teddy {
     display: inline-block;
@@ -64,8 +83,7 @@ img#teddy {
 }
 
 section {
-    min-height: 200px;
-    padding: 10%;
+    padding: 5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;    
     font-size: 18px;
@@ -76,11 +94,13 @@ section {
     background-color: #D4F9FA;
     color: darkcyan;
     padding: 5%;
+    border-radius: 5%;
 }
 
 .contact-info {
     background-color: darkcyan;
     color: white;
+    border-radius: 5%;
 
 }
 
