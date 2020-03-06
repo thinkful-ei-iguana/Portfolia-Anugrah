@@ -67,19 +67,20 @@ section:target .collapse {
   display: block;
 }
 
-img#teddy {
+.projectPic {
     display: inline-block;
-    width: 70%;
+    width: 300px;
     padding: 0%;
     margin: 0px;
+    border: solid black 1px;
 }
 
-#teddy-desc{
+.project-desc {
     text-align: left;
     display: block;
     width: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 25px;
 }
 
 section {
@@ -127,14 +128,19 @@ footer {
   text-align: center;
 }
 
-h3, h4 {
+h2, h3, h4 {
   text-align: center;
 }
 
 button {
-  height: 50px;
+  height: 25px;
   font-size: 18px;
   background-color: #FAE1F2;
+}
+
+#projectScroll {
+  border: solid 1px darkcyan;
+  border-radius: 5%;
 }
 
 

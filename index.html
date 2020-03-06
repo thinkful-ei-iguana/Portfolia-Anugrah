@@ -17,7 +17,7 @@
         </header>
 
         <section class="about-me" id="about-me">
-           <a href="#about-me"><h3 id="AboutHeader">About me</h3></a>
+           <a href="#about-me"><h2 id="AboutHeader">About me</h2></a>
            <div class="collapse">
             <p><a href="#">view less</a></p>
             <p>When I was a teenager, I really wanted to go to art school. But my parents made me study engineering instead.
@@ -34,11 +34,71 @@
         </section>
 
         <section class="project-list" id="project-list">
-            <a href="#project-list"><h3>Projects</h3></a>
+            <a href="#project-list"><h2>Projects</h2></a>
             <div class="collapse">
             <p><a href="#">view less</a></p>
-            <h4>Teddy Roosevelt Quiz</h4>
-            <img src="./teddy.png" id="teddy" alt="a screenshot of the teddy quiz app" />
+            <div style="overflow-y: scroll; height:400px;" id="projectScroll">
+            <h3>Line Please!</h3>
+            <img src="./line-please.png" class="projectPic" alt="a screenshot of the line please! app" />
+            
+            <section class="project-desc" > 
+            
+               <p> An application to help users memorize bodies of text. 
+                   Perfect to be used for speeches, performances, lyrics, etc.</p>
+                <p> HTML, CSS, Javascript, React, Node, Express, Postgres, SQL </p>
+                
+              <section class="projectLinks">
+              <form action="https://line-please-app.now.sh/" target="_blank"><button>Visit Live Site!</button></form>
+
+              <form action="https://github.com/thinkful-ei-iguana/line-please-app" target="_blank"><button>Visit Github Repo of Client!</button></form>
+              <form action="https://github.com/thinkful-ei-iguana/line-please-server" target="_blank"><button>Visit Github Repo of Server!</button></form>  
+            </section>
+            </section>
+
+            <h3>Kitchen Helper</h3>
+            <img src="./kitchen-helper.png" class="projectPic" alt="a screenshot of the kitchen helper app" />
+            
+            <section class="project-desc" > 
+            
+               <p> A one stop shop kitchen integration app that helps users 
+                   keep track of their pantry, create and search new recipes,
+                   and create mealplans based off of those recipes.
+               </p>
+                <p> HTML, CSS, Javascript, React, Node, Express, Postgres, SQL </p>
+                
+              <section class="projectLinks">
+              <form action="https://delta-squad-app.now.sh/" target="_blank"><button>Visit Live Site!</button></form>
+
+              <form action="https://github.com/thinkful-ei-iguana/Delta-Squad-Front-End" target="_blank"><button>Visit Github Repo of Client!</button></form>
+              <form action="https://github.com/thinkful-ei-iguana/Delta-Squad-Server" target="_blank"><button>Visit Github Repo of Server!</button></form>  
+            </section>
+            </section>
+
+            <h3>Spaced Repetition</h3>
+            <img src="./Spaced-repition.png" class="projectPic" alt="a screenshot of the spaced repetition app" />
+            
+            <section class="project-desc" > 
+            
+               <p> Learn a new language through the method of Spaced Repetition.
+                   This method of learning prompts you with words,
+                    records which you've gotten correct and incorrect
+                   and sends the word back in the queue. How many times
+                   a user has correctly or incorrectly that word affects how far back
+                   that word gets sent back in the queue. This method of learning
+                   is made possible through the use of linked-lists.
+               </p>
+                <p> HTML, CSS, Javascript, React, Node, Express, PostgresSQL </p>
+                
+              <section class="projectLinks">
+              <form action="https://spaced-rep-phi.now.sh/" target="_blank"><button>Visit Live Site!</button></form>
+
+              <form action="https://github.com/thinkful-ei-iguana/michael-anugrah-spaced-repetition-client" target="_blank"><button>Visit Github Repo of Client!</button></form>
+              <form action="https://github.com/thinkful-ei-iguana/michael-anugrah-spaced-repetition-server" target="_blank"><button>Visit Github Repo of Server!</button></form>  
+            </section>
+            </section>
+
+            <h3>Teddy Roosevelt Quiz</h3>
+            <img src="./teddy.png" id="teddy" class="projectPic" alt="a screenshot of the teddy quiz app" />
             
             <section class="project-desc" id="teddy-desc"> 
             
@@ -50,8 +110,8 @@
 
               <form action="https://github.com/thinkful-ei-iguana/Kyle-Anugrah-QuizApp" target="_blank"><button>Visit Github Repo!</button></form>
               </section>
-              
             </section>
+        </div>
         </div>
         </section>
 
